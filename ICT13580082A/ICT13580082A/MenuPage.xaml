@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT13580082A.MenuPage"
+             Title="Menu"
+             Icon="hamburger">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="200"/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <BoxView
+            Color="#C70039"/>
+        <StackLayout
+            Orientation="Vertical"
+            VerticalOptions="End"
+            Margin="10">
+
+            <Image
+                Source="snowMann.jpg"
+                HeightRequest="100"
+                BackgroundColor="#581845"
+                HorizontalOptions="Start"/>
+            <Label
+                Text="Pimolpach Kirdpol"
+                TextColor="White"
+                FontAttributes="Bold"/>
+            <Label
+                Text="Popular23p@gmail.com  ID :  13580082"
+                TextColor="White"
+                FontAttributes="Bold"/>
+
+        </StackLayout>
+
+
+        <BoxView
+            Grid.Row="1"
+            Color="#F5EF91"/>
+            <ScrollView
+                Grid.Row="1">
+                <StackLayout
+                    Orientation="Vertical"
+                    Padding="20">
+                     <Label
+                        Text="View"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        FontAttributes="Bold"/>
+
+                    <Button
+                         x:Name="viewButton"
+                         Text="All View"
+                         BackgroundColor="#FFC305"/>
+                    <BoxView
+                        Color="White"
+                        HeightRequest="3"
+                        Margin="10"/>
+                    <Label
+                        Text="Layout"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        FontAttributes="Bold"/>
+
+                    <Button
+                         x:Name="stackButton"
+                         Text="Stack Layout"
+                         BackgroundColor="#C70039"/>
+                    <Button
+                         x:Name="gridButton"
+                         Text="Grid Layout"
+                         BackgroundColor="#900C3F"/>
+                    <Button
+                         x:Name="absoluteButton"
+                         Text="Absolute Layout"
+                         BackgroundColor="#581845"/>
+                    
+                    <BoxView
+                        Color="White"
+                        HeightRequest="3"
+                        Margin="10"/>
+                    <Label
+                        Text="View"
+                        TextColor="White"
+                        HorizontalTextAlignment="Center"
+                        FontAttributes="Bold"/>
+                    <Button
+                         x:Name="contentButton"
+                         Text="Content Page"
+                         BackgroundColor="#FFC305"/>
+                    <Button
+                        x:Name="navButton"
+                        Text="Navigation Page"
+                        BackgroundColor="#C70039"/>
+                    <Button
+                        x:Name="tabButton"
+                        Text="Tabbed Page"
+                        BackgroundColor="#900C3F"/>
+                    <Button
+                        x:Name="carouselButton"
+                        Text="Carousel Page"
+                        BackgroundColor="#581845"/>
+                </StackLayout>
+            </ScrollView>
+    </Grid>
+</ContentPage>

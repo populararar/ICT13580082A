@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ICT13580082A.StackPage"
+             BackgroundColor="#F5EF91">
+    <ScrollView
+        Orientation="Vertical">
+
+        <StackLayout
+        Orientation="Vertical"
+        BackgroundColor="#F5EF91">
+
+            <Button
+            Text="Button"
+            BackgroundColor="#C70039"
+            HorizontalOptions="Center"
+            WidthRequest="100"
+            Margin="0,20,0,0"/>
+            <Button
+            Text="Button"
+            BackgroundColor="#900C3F"
+            HorizontalOptions="Center"
+            WidthRequest="150"/>
+            <Button
+            Text="Button"
+            BackgroundColor="#581845"
+            HorizontalOptions="Center"
+            WidthRequest="200"/>
+            <ScrollView
+            Orientation="Horizontal">
+                <StackLayout
+            Orientation="Horizontal"
+            BackgroundColor="#FFC305">
+                    <Button
+            Text="Button"
+            BackgroundColor="#F5EF91"
+            HorizontalOptions="Center"
+            />
+                    <Button
+            Text="Button"
+            BackgroundColor="#F8B945"
+            HorizontalOptions="Center"
+            />
+                    <Button
+            Text="Button"
+            BackgroundColor="#FF5733"
+            HorizontalOptions="Center"/>
+                    <Button
+            Text="Button"
+            BackgroundColor="#C70039"
+            HorizontalOptions="Center"
+            />
+                    <Button
+            Text="Button"
+            BackgroundColor="#900C3F"
+            HorizontalOptions="Center"
+            />
+                    <Button
+            Text="Button"
+            BackgroundColor="#581845"
+            HorizontalOptions="Center"/>
+                </StackLayout>
+            </ScrollView>
+
+            <Entry
+            Placeholder="Input Some thing Here"
+            BackgroundColor="#EFE0C3"
+            TextColor="Gray"/>
+            <Entry
+            Placeholder="Input your name"
+            BackgroundColor="#D6C5A5"
+            TextColor="Gray"/>
+            <Entry
+            Placeholder="Input your heart"
+            BackgroundColor="#EFE0C3"
+            TextColor="Gray"
+            Keyboard="Text"/>
+
+            <Entry
+            Placeholder="Say something"
+            BackgroundColor="#D6C5A5"
+            TextColor="Gray"
+            Keyboard="Text"/>
+            <Entry
+            Placeholder="- Good luck -"
+            BackgroundColor="#EFE0C3"
+            TextColor="Gray"
+            Keyboard="Text"/>
+            <Entry
+            Placeholder="- Love your style -"
+            BackgroundColor="#D6C5A5"
+            TextColor="Gray"
+            Keyboard="Text"/>
+
+            <Entry
+            Placeholder="Input Some thing Here"
+            BackgroundColor="#EFE0C3"
+            TextColor="Gray"
+            Keyboard="Text"/>
+            <Entry
+            Placeholder="Input Some thing Here"
+            BackgroundColor="#D6C5A5"
+            TextColor="Gray"
+            Keyboard="Text"/>
+            <Entry
+            Placeholder="Input Some thing Here"
+            BackgroundColor="#EFE0C3"
+            TextColor="Gray"
+            Keyboard="Text"/>
+
+            <Entry
+            Placeholder=" - your name - "
+            BackgroundColor="#D6C5A5"
+            TextColor="Gray"
+            Keyboard="Text"/>
+            <Entry
+            Placeholder="Input Some thing Here"
+            BackgroundColor="#EFE0C3"
+            TextColor="Gray"
+            Keyboard="Text"/>
+            <Entry
+            Placeholder="Input Some thing Here"
+            BackgroundColor="#D6C5A5"
+            TextColor="Gray"
+            Keyboard="Text"/>
+
+
+
+        </StackLayout>
+    </ScrollView>
+
+</ContentPage>

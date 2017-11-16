@@ -134,6 +134,30 @@
     </Reference>
     <Reference Include="Xamarin.iOS" />
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\strawberry.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cotton.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\cream.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\hamburger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\ice.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\jelly.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snowMan.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\snowMann.jpg" />
+  </ItemGroup>
   <Import Project="..\ICT13580082A\ICT13580082A.projitems" Label="Shared" Condition="Exists('..\ICT13580082A\ICT13580082A.projitems')" />
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
