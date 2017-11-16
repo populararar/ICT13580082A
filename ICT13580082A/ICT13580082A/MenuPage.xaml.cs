@@ -19,18 +19,31 @@ namespace ICT13580082A
             stackButton.Clicked += StackButton_Clicked;
             gridButton.Clicked += GridButton_Clicked;
             absoluteButton.Clicked += AbsoluteButton_Clicked;
+            contentButton.Clicked += ContentButton_Clicked;
+
+        }
+
+        private void ContentButton_Clicked(object sender, EventArgs e)
+        {
+            var mp = Parent as MasterDetailPage;
+            var np = new NavigationPage(new MyPage1());
+
         }
 
         private void AbsoluteButton_Clicked(object sender, EventArgs e)
         {
             var mp = Parent as MasterDetailPage;
             var np = new NavigationPage(new AbsolutePage());
+            mp.Detail = np;
+            mp.IsPresented = false;
         }
 
         private void GridButton_Clicked(object sender, EventArgs e)
         {
             var mp = Parent as MasterDetailPage;
             var np = new NavigationPage(new GridPage());
+            mp.Detail = np;
+            mp.IsPresented = false;
         }
 
         private void StackButton_Clicked(object sender, EventArgs e)
