@@ -33,8 +33,8 @@ namespace ICT13580082A
             cp.Children.Add(new TabPage1());
             cp.Children.Add(new TabPage2());
             cp.Children.Add(new TabPage3());
-            var cp = new NavigationPage(cp);
-            mp.Detail = cp;
+            var tp = new NavigationPage(cp);
+            mp.Detail = tp;
             mp.IsPresented = false;
         }
 
